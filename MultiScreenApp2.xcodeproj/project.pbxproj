@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FAC12F1C1EDF090008AAAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC12E1C1EDF090008AAAB /* main.m */; };
+		18FAC1321C1EDF090008AAAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1311C1EDF090008AAAB /* AppDelegate.m */; };
+		18FAC1351C1EDF090008AAAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1341C1EDF090008AAAB /* ViewController.m */; };
+		18FAC1381C1EDF090008AAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC1361C1EDF090008AAAB /* Main.storyboard */; };
+		18FAC13A1C1EDF090008AAAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC1391C1EDF090008AAAB /* Images.xcassets */; };
+		18FAC13D1C1EDF090008AAAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC13B1C1EDF090008AAAB /* LaunchScreen.xib */; };
+		18FAC1491C1EDF090008AAAB /* MultiScreenApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1481C1EDF090008AAAB /* MultiScreenApp2Tests.m */; };
+		18FAC1541C1EE0CA0008AAAB /* EmpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1531C1EE0CA0008AAAB /* EmpTableViewController.m */; };
+		18FAC1571C1EE1B70008AAAB /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1561C1EE1B70008AAAB /* Employee.m */; };
+		18FAC15B1C1EF7AD0008AAAB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1591C1EF7AD0008AAAB /* SecondViewController.m */; };
+		18FAC15C1C1EF7AD0008AAAB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC15A1C1EF7AD0008AAAB /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FAC1431C1EDF090008AAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FAC1211C1EDF080008AAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FAC1281C1EDF090008AAAB;
+			remoteInfo = MultiScreenApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FAC1291C1EDF090008AAAB /* MultiScreenApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiScreenApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FAC12D1C1EDF090008AAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FAC12E1C1EDF090008AAAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FAC1301C1EDF090008AAAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FAC1311C1EDF090008AAAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FAC1331C1EDF090008AAAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FAC1341C1EDF090008AAAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FAC1371C1EDF090008AAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FAC1391C1EDF090008AAAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18FAC13C1C1EDF090008AAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18FAC1421C1EDF090008AAAB /* MultiScreenApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScreenApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FAC1471C1EDF090008AAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FAC1481C1EDF090008AAAB /* MultiScreenApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiScreenApp2Tests.m; sourceTree = "<group>"; };
+		18FAC1521C1EE0CA0008AAAB /* EmpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmpTableViewController.h; sourceTree = "<group>"; };
+		18FAC1531C1EE0CA0008AAAB /* EmpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmpTableViewController.m; sourceTree = "<group>"; };
+		18FAC1551C1EE1B70008AAAB /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		18FAC1561C1EE1B70008AAAB /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		18FAC1581C1EF7AD0008AAAB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		18FAC1591C1EF7AD0008AAAB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18FAC15A1C1EF7AD0008AAAB /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FAC1261C1EDF090008AAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAC13F1C1EDF090008AAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FAC1201C1EDF080008AAAB = {
+			isa = PBXGroup;
+			children = (
+				18FAC12B1C1EDF090008AAAB /* MultiScreenApp2 */,
+				18FAC1451C1EDF090008AAAB /* MultiScreenApp2Tests */,
+				18FAC12A1C1EDF090008AAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FAC12A1C1EDF090008AAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC1291C1EDF090008AAAB /* MultiScreenApp2.app */,
+				18FAC1421C1EDF090008AAAB /* MultiScreenApp2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FAC12B1C1EDF090008AAAB /* MultiScreenApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC1301C1EDF090008AAAB /* AppDelegate.h */,
+				18FAC1311C1EDF090008AAAB /* AppDelegate.m */,
+				18FAC1331C1EDF090008AAAB /* ViewController.h */,
+				18FAC1341C1EDF090008AAAB /* ViewController.m */,
+				18FAC1361C1EDF090008AAAB /* Main.storyboard */,
+				18FAC1391C1EDF090008AAAB /* Images.xcassets */,
+				18FAC13B1C1EDF090008AAAB /* LaunchScreen.xib */,
+				18FAC12C1C1EDF090008AAAB /* Supporting Files */,
+				18FAC1521C1EE0CA0008AAAB /* EmpTableViewController.h */,
+				18FAC1531C1EE0CA0008AAAB /* EmpTableViewController.m */,
+				18FAC1551C1EE1B70008AAAB /* Employee.h */,
+				18FAC1561C1EE1B70008AAAB /* Employee.m */,
+				18FAC1581C1EF7AD0008AAAB /* SecondViewController.h */,
+				18FAC1591C1EF7AD0008AAAB /* SecondViewController.m */,
+				18FAC15A1C1EF7AD0008AAAB /* SecondViewController.xib */,
+			);
+			path = MultiScreenApp2;
+			sourceTree = "<group>";
+		};
+		18FAC12C1C1EDF090008AAAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC12D1C1EDF090008AAAB /* Info.plist */,
+				18FAC12E1C1EDF090008AAAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FAC1451C1EDF090008AAAB /* MultiScreenApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC1481C1EDF090008AAAB /* MultiScreenApp2Tests.m */,
+				18FAC1461C1EDF090008AAAB /* Supporting Files */,
+			);
+			path = MultiScreenApp2Tests;
+			sourceTree = "<group>";
+		};
+		18FAC1461C1EDF090008AAAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FAC1471C1EDF090008AAAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FAC1281C1EDF090008AAAB /* MultiScreenApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FAC14C1C1EDF090008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp2" */;
+			buildPhases = (
+				18FAC1251C1EDF090008AAAB /* Sources */,
+				18FAC1261C1EDF090008AAAB /* Frameworks */,
+				18FAC1271C1EDF090008AAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiScreenApp2;
+			productName = MultiScreenApp2;
+			productReference = 18FAC1291C1EDF090008AAAB /* MultiScreenApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FAC1411C1EDF090008AAAB /* MultiScreenApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FAC14F1C1EDF090008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp2Tests" */;
+			buildPhases = (
+				18FAC13E1C1EDF090008AAAB /* Sources */,
+				18FAC13F1C1EDF090008AAAB /* Frameworks */,
+				18FAC1401C1EDF090008AAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FAC1441C1EDF090008AAAB /* PBXTargetDependency */,
+			);
+			name = MultiScreenApp2Tests;
+			productName = MultiScreenApp2Tests;
+			productReference = 18FAC1421C1EDF090008AAAB /* MultiScreenApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FAC1211C1EDF080008AAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CDAC;
+				TargetAttributes = {
+					18FAC1281C1EDF090008AAAB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					18FAC1411C1EDF090008AAAB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 18FAC1281C1EDF090008AAAB;
+					};
+				};
+			};
+			buildConfigurationList = 18FAC1241C1EDF080008AAAB /* Build configuration list for PBXProject "MultiScreenApp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FAC1201C1EDF080008AAAB;
+			productRefGroup = 18FAC12A1C1EDF090008AAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FAC1281C1EDF090008AAAB /* MultiScreenApp2 */,
+				18FAC1411C1EDF090008AAAB /* MultiScreenApp2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FAC1271C1EDF090008AAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAC15C1C1EF7AD0008AAAB /* SecondViewController.xib in Resources */,
+				18FAC1381C1EDF090008AAAB /* Main.storyboard in Resources */,
+				18FAC13D1C1EDF090008AAAB /* LaunchScreen.xib in Resources */,
+				18FAC13A1C1EDF090008AAAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAC1401C1EDF090008AAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FAC1251C1EDF090008AAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAC15B1C1EF7AD0008AAAB /* SecondViewController.m in Sources */,
+				18FAC1571C1EE1B70008AAAB /* Employee.m in Sources */,
+				18FAC1541C1EE0CA0008AAAB /* EmpTableViewController.m in Sources */,
+				18FAC1351C1EDF090008AAAB /* ViewController.m in Sources */,
+				18FAC1321C1EDF090008AAAB /* AppDelegate.m in Sources */,
+				18FAC12F1C1EDF090008AAAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FAC13E1C1EDF090008AAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FAC1491C1EDF090008AAAB /* MultiScreenApp2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FAC1441C1EDF090008AAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FAC1281C1EDF090008AAAB /* MultiScreenApp2 */;
+			targetProxy = 18FAC1431C1EDF090008AAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FAC1361C1EDF090008AAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FAC1371C1EDF090008AAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FAC13B1C1EDF090008AAAB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FAC13C1C1EDF090008AAAB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FAC14A1C1EDF090008AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FAC14B1C1EDF090008AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FAC14D1C1EDF090008AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiScreenApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FAC14E1C1EDF090008AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiScreenApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FAC1501C1EDF090008AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiScreenApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreenApp2.app/MultiScreenApp2";
+			};
+			name = Debug;
+		};
+		18FAC1511C1EDF090008AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiScreenApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreenApp2.app/MultiScreenApp2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FAC1241C1EDF080008AAAB /* Build configuration list for PBXProject "MultiScreenApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAC14A1C1EDF090008AAAB /* Debug */,
+				18FAC14B1C1EDF090008AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FAC14C1C1EDF090008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAC14D1C1EDF090008AAAB /* Debug */,
+				18FAC14E1C1EDF090008AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FAC14F1C1EDF090008AAAB /* Build configuration list for PBXNativeTarget "MultiScreenApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FAC1501C1EDF090008AAAB /* Debug */,
+				18FAC1511C1EDF090008AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FAC1211C1EDF080008AAAB /* Project object */;
+}
